@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint AHDNetworker.spec.podspec' to ensure this is a
+#  Be sure to run `pod spec lint AHDNetworker.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://docs.cocoapods.org/specification.html
@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "AHDNetworker.spec"
-  spec.version      = "0.0.1"
+  spec.name         = "AHDNetworker"
+  spec.version      = "1.0.0"
   spec.summary      = "AHDNetworker"
 
   # This description is used to generate tags and improve search results.
@@ -25,10 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                    A network framework, power by AFNetworking.
+A network framework, power by AFNetworking.
                    DESC
 
-  spec.homepage     = "http://www.baidu.com"
+  spec.homepage     = "https://www.baidu.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "AHDNetworker", "AHDNetworker/**/*.{h,m}"
+  spec.source_files  = "AHDNetworker"
   spec.exclude_files = "AHDNetworker/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -133,6 +133,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "AFNetworking", "~> "3.2.1""
+  # spec.dependency "AFNetworking", "~> 3.2.1"
 
 end
