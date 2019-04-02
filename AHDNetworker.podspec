@@ -91,10 +91,10 @@ A network framework, power by AFNetworking.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "**"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = 'AHDNetworker'
+  # spec.exclude_files = 'AHDNetworker/Exclude'
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = 'AHDNetworker/AHDNetworker.h'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
