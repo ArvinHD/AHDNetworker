@@ -67,6 +67,7 @@
 		72FA1115225271F700F21A14 /* AHDNetworker */ = {
 			isa = PBXGroup;
 			children = (
+				72FA1116225271F700F21A14 /* AHDNetworker.h */,
 				72FA111F2252729A00F21A14 /* HDBaseClient.h */,
 				72FA11212252729A00F21A14 /* HDBaseClient.m */,
 				72FA11232252729A00F21A14 /* HDBaseConst.h */,
@@ -74,7 +75,6 @@
 				72FA11242252729A00F21A14 /* HDNetworker.h */,
 				72FA11202252729A00F21A14 /* HDNetworker.m */,
 				72FA111E2252729A00F21A14 /* HDNetworkerConst.h */,
-				72FA1116225271F700F21A14 /* AHDNetworker.h */,
 				72FA1117225271F700F21A14 /* Info.plist */,
 			);
 			path = AHDNetworker;
